@@ -1,4 +1,4 @@
-# Note Taker
+# Shielded Lake Note Taker
 
 ## Description
 
@@ -18,5 +18,8 @@ Editing of saved notes is not supported at this time.
 
 ## Links
 
-GitHub: https://github.com/gavin-asay/note-taker
-Deployed Application:
+[GitHub Repo](https://github.com/gavin-asay/note-taker)
+
+[Deployed Application](https://shielded-lake-61548.herokuapp.com/)
+
+![App preview](./public/assets/images/app_preview.png)

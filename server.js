@@ -45,6 +45,7 @@ app.post('/api/notes', (req, res) => {
 		res.json(db);
 	} else {
 		savedNote.id = nanoid(10);
+		console.log(savedNote);
 
 		// accounts for the possibility that a new note is assigned a duplicate id, though it's unlikely
 		while (db.find(note => note.id === savedNote.id) !== undefined) {
